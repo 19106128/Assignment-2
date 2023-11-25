@@ -1,0 +1,27 @@
+blog difference between window and document object
+
+1. The Window Object:
+The window object represents the browser window, acting as the global object for JavaScript in the browser. Here's an overview of its characteristics:
+
+Global Environment:
+All global JavaScript variables, functions. 
+And objects are attached to the window object. For instance, var a = 10; effectively becomes window.
+
+Window Properties:
+window holds properties that provide information about the browser, including dimensions and history
+
+Timers and Events:
+Timers: Functions like setTimeout() and setInterval() belong to window, 
+Allowing the execution of code after a specified delay or at regular intervals.
+
+The Document Object: 
+The document object represents the HTML document loaded in the browser window and encapsulates the content of the web page:
+
+DOM Access: document grants access to the Document Object Model (DOM)
+Allowing developers to manipulate the structure, content, and style of the web page elements.
+
+Element Selection:
+Methods like getElementById(),enable the selection and modification of HTML elements.
+
+b. Styling and Layout:
+Style Modification: Developers can alter CSS styles and attributes of elements through the document object, affecting the appearance of the web page.
